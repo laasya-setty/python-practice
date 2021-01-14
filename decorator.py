@@ -16,5 +16,5 @@ divide(2,0)
 """"def divide(a,b):
     print(a/b)
     divide=smart_divide(divide)"""""
-    
+    #that parameters of the nested inner() function inside the decorator is the same as the parameters of functions it decorates.
         
