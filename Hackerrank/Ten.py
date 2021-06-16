@@ -1,0 +1,20 @@
+# List Comrehension
+if __name__ == '__main__':
+    x = int(input())
+    y = int(input())
+    z = int(input())
+    n = int(input())
+lis=[]
+
+for i in range(x+1):
+    for j in range(y+1):
+        for k in range(z+1):
+            if(i+j+k!=n):
+                temp=[i,j,k]
+                lis.append(temp)
+        
+                   
+            
+print(lis)            
+   # this is using list comphrehension 
+print( [[i,j,k] for i in range(x + 1) for j in range(y + 1) for k in range(z + 1) if i+j+k!= n])
