@@ -10,6 +10,7 @@ for i in range(n):
     
 lis.sort(key= lambda x:x[1] )  #sorting in nested lists
 high=sorted(set([score for name, score in lis]))[1]
+print(high)
 print('\n'.join(sorted([name for name, score in lis if score ==high])))
 
 
@@ -28,3 +29,6 @@ for score, name in lis:
         print(name)
 
     
+
+
+
